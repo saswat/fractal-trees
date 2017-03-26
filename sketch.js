@@ -11,7 +11,7 @@ function draw() {
   background(55);
   angle = slider.value();
   stroke(255);
-  translate(200, height);
+  translate(window.innerWidth / 2, height);
   branch(100);
 }
 
